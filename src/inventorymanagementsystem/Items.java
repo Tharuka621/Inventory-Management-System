@@ -295,7 +295,7 @@ public class Items extends javax.swing.JFrame {
     String quantity = jTextField3.getText().trim();
     String price = jTextField5.getText().trim();
     String category = jComboBox1.getSelectedItem().toString().trim();
-
+//git test
     // Validate fields
     if (id.isEmpty() || name.isEmpty() || quantity.isEmpty() || price.isEmpty()) {
         JOptionPane.showMessageDialog(this, "All fields must be filled.", "Error", JOptionPane.ERROR_MESSAGE);
